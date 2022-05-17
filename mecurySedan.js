@@ -44,3 +44,12 @@ class Car extends Vehicle {
     }
   }
 }
+
+let mySuburu = new Car("Suburu", "sedan", "2014", "black", "25000");
+
+mySuburu.start();
+mySuburu.loadPassenger(2);
+mySuburu.stop();
+mySuburu.scheduleService();
+
+console.log(mySuburu);
